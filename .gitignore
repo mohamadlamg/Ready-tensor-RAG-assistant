@@ -1,4 +1,5 @@
-# Fichiers à ne pas mettre sur GitHub
+# Garder SEULEMENT app.py et vectordb.py
+# Exclure tous les autres fichiers Python
 api.py
 base_vecto.py
 best.py
@@ -8,12 +9,10 @@ feedforward.py
 finish_chatbot.py
 first_agentic.py
 generative_learning.py
-intents.json
 langraph_tuto.py
 linear_regression.py
 model_chat.py
 nltk_utils.py
-rag_documents
 research_assistant.py
 test1.py
 test_gemini.py
@@ -22,25 +21,22 @@ test_pi.py
 torch_data.py
 train.py
 utilities.py
-vectordb.py
 version_ameliore.py
 
-# Dossiers à exclure
+# Fichiers JSON et texte
+intents.json
+rag_documents
+
+# Dossiers
 app/
 test/
 
-
-# Le reste du .gitignore (garde ce qui était déjà là)
-
-
-
-
-# Fichiers d'environnement (secrets, clés API)
+# Fichiers d'environnement
 .env
 .env.local
 *.env
 
-# Données et datasets (trop volumineux pour GitHub)
+# Données et datasets
 datasets/
 data_langues/
 fashion/
@@ -51,7 +47,7 @@ research_db/
 *.hdf5
 *.sqlite3
 
-# Modèles entraînés (trop volumineux)
+# Modèles entraînés
 *.pth
 *.keras
 *.h5
@@ -61,7 +57,7 @@ research_db/
 # TensorBoard
 runs/
 
-# Fichiers Python
+# Fichiers Python générés
 __pycache__/
 *.py[cod]
 *$py.class
@@ -86,7 +82,3 @@ ENV/
 # Système
 .DS_Store
 Thumbs.db
-
-# Images de test (optionnel, tu peux les garder si petites)
-# test/*.png
-# test/*.jpg
