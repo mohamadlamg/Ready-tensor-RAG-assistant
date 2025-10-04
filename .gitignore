@@ -5,7 +5,6 @@
 
 # Données et datasets (trop volumineux pour GitHub)
 datasets/
-data/
 data_langues/
 fashion/
 test_data/
