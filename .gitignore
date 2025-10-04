@@ -1,3 +1,40 @@
+# Fichiers à ne pas mettre sur GitHub
+api.py
+base_vecto.py
+best.py
+data_augmentation.py
+essai_chat.py
+feedforward.py
+finish_chatbot.py
+first_agentic.py
+generative_learning.py
+intents.json
+langraph_tuto.py
+linear_regression.py
+model_chat.py
+nltk_utils.py
+rag_documents
+research_assistant.py
+test1.py
+test_gemini.py
+test_groq.py
+test_pi.py
+torch_data.py
+train.py
+utilities.py
+vectordb.py
+version_ameliore.py
+
+# Dossiers à exclure
+app/
+test/
+
+
+# Le reste du .gitignore (garde ce qui était déjà là)
+
+
+
+
 # Fichiers d'environnement (secrets, clés API)
 .env
 .env.local
