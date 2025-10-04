@@ -1,0 +1,56 @@
+# Fichiers d'environnement (secrets, clés API)
+.env
+.env.local
+*.env
+
+# Données et datasets (trop volumineux pour GitHub)
+datasets/
+data/
+data_langues/
+fashion/
+test_data/
+train_data/
+rag_clients_db/
+research_db/
+*.hdf5
+*.sqlite3
+
+# Modèles entraînés (trop volumineux)
+*.pth
+*.keras
+*.h5
+*.pkl
+*.pickle
+
+# TensorBoard
+runs/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Images de test (optionnel, tu peux les garder si petites)
+# test/*.png
+# test/*.jpg
